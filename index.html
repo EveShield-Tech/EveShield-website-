@@ -49,83 +49,6 @@
     });
   </script>
 
-  <!-- Structured Data for SEO -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://eveshield.org/#organization",
-        "name": "EveShield",
-        "url": "https://eveshield.org/",
-        "logo": "https://eveshield.org/assets/eveshield-logo.png",
-        "description": "Non-profit organization building integrated safety ecosystem for survivors of gender-based violence and sexual assault in Kenya",
-        "sameAs": [
-          "https://www.instagram.com/eveshield/",
-          "https://www.facebook.com/profile.php?id=61586745593219",
-          "https://www.linkedin.com/company/eveshield/",
-          "https://x.com/eveshieldorg",
-          "https://www.tiktok.com/@eveshieldorg"
-        ],
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+254721606409",
-          "contactType": "customer service",
-          "availableLanguage": "English"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Manga House, 9 Kiambere Rd",
-          "addressLocality": "Nairobi",
-          "addressRegion": "Nairobi",
-          "postalCode": "00100",
-          "addressCountry": "KE"
-        },
-        "areaServed": {
-          "@type": "Country",
-          "name": "Kenya"
-        }
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://eveshield.org/#localbusiness",
-        "name": "EveShield Kenya",
-        "description": "Non-profit safety technology organization providing emergency response and support services for GBV survivors",
-        "url": "https://eveshield.org/",
-        "telephone": "+254721606409",
-        "email": "eveshield2@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Manga House, 9 Kiambere Rd, UpperHill",
-          "addressLocality": "Nairobi",
-          "addressRegion": "Nairobi",
-          "postalCode": "00100",
-          "addressCountry": "KE"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "-1.2921",
-          "longitude": "36.8219"
-        },
-        "openingHours": "Mo-Fr 09:00-18:00",
-        "priceRange": "$"
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://eveshield.org/#website",
-        "url": "https://eveshield.org/",
-        "name": "EveShield",
-        "description": "Non-profit organization building integrated safety ecosystem for survivors of gender-based violence and sexual assault in Kenya",
-        "publisher": {
-          "@id": "https://eveshield.org/#organization"
-        },
-        "inLanguage": "en-US",
-        "isAccessibleForFree": true
-      }
-    ]
-  }
-  </script>
   <!-- include once at the top of your page -->
   <script src="https://unpkg.com/heroicons@2.0.16/dist/heroicons.min.js"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -230,39 +153,15 @@
             data-path="/who-we-are" aria-label="Learn more about EveShield">
             Learn About Us
           </a>
-          <a href="#/contact"
-            class="btn btn-secondary btn-lg focus-visible:outline-2 focus-visible:outline-primary w-full sm:w-auto"
-            data-path="/contact" aria-label="Contact EveShield team">
-            Contact Us
-          </a>
-          <a href="#/privacy-policy"
-            class="btn btn-secondary btn-lg focus-visible:outline-2 focus-visible:outline-primary w-full sm:w-auto"
-            data-path="/privacy-policy" aria-label="Read EveShield privacy policy">
-            Privacy Policy
-          </a>
-          <a href="#/terms-of-service"
-            class="btn btn-secondary btn-lg focus-visible:outline-2 focus-visible:outline-primary w-full sm:w-auto"
-            data-path="/terms-of-service" aria-label="Read EveShield terms of service">
-            Terms of Service
-          </a>
           <a href="https://chat.whatsapp.com/IGK8HRMceia4ReTvn4CMVe" target="_blank" rel="noopener noreferrer"
             class="btn btn-whatsapp btn-lg w-full sm:w-auto">
             <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill-rule="evenodd"
+              <path
                 d="M12 2C6.48 2 2 6.48 2 12c0 2.17.69 4.18 1.87 5.81L2.4 22l4.31-1.42A9.97 9.97 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.23c-1.74 0-3.41-.45-4.88-1.28l-.35-.2-3.62 1.2 1.22-3.53-.22-.35A8.2 8.2 0 0 1 3.77 12c0-4.54 3.7-8.23 8.23-8.23 4.54 0 8.23 3.7 8.23 8.23 0 4.54-3.7 8.23-8.23 8.23zm4.52-5.94c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.55.12-.17.25-.64.81-.79.97-.15.17-.3.19-.55.06-1.55-.78-2.65-1.7-3.66-3.45-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.55-1.33-.75-1.82-.2-.48-.41-.42-.55-.42h-.47c-.17 0-.45.06-.68.31-.23.25-.89.87-.89 2.12s.91 2.45 1.04 2.62c.12.17 1.79 2.73 4.33 3.82.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.29z"
                 clip-rule="evenodd" />
             </svg>
             <span>Join WhatsApp Community</span>
           </a>
-          <button type="submit" id="submit-btn" class="btn btn-modern-waitlist btn-lg w-full sm:w-auto">
-            <span id="submit-text">Join the Waiting List</span>
-            <svg
-              class="lucide lucide-arrow-right w-5 h-5 ml-2 inline-flex transition-transform group-hover:translate-x-1"
-              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
         </div>
       </div>
     </section>
