@@ -611,14 +611,8 @@ document.addEventListener('DOMContentLoaded', function () {
               </p>
             </div>
 
-            <!-- CRITICAL COUNTERS -->
-         <div class="grid grid-cols-1 grid-cols-sm-2 grid-cols-lg-4 gap-6 mb-8">
-         <div class="glass-card counter-card glow-purple-hover" data-end="129" data-suffix="">
-         <div class="counter-value gradient-purple-text">0</div>
-         <p class="counter-label">Femicide Cases</p>
-         <p class="counter-description">Women killed in Q1 2025 alone - a critical surge.</p>
-        <p class="counter-source">2025 Police Reports</p>
-         </div>
+            <!-- DASHBOARD COUNTERS -->
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
      <div class="glass-card counter-card glow-purple-hover" data-end="72" data-suffix="%">
                 <div class="counter-value gradient-purple-text">0%</div>
                 <p class="counter-label">Home-Based Violence</p>
@@ -637,21 +631,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 <p class="counter-description">of women still believe physical discipline is justified.</p>
                 <p class="counter-source">KDHS 2025</p>
               </div>
-            </div>
-
-            <!-- ECONOMIC IMPACT -->
-            <div class="grid grid-cols-1 grid-cols-sm-2 gap-6 mb-8">
               <div class="glass-card counter-card glow-purple-hover" data-end="41" data-prefix="KES " data-suffix="B">
                 <div class="counter-value gradient-purple-text">KES 0B</div>
                 <p class="counter-label">Economic Toll</p>
                 <p class="counter-description">Annual cost of GBV - nearly 10% of national GDP.</p>
                 <p class="counter-source">Economic Impact Study 2025</p>
-              </div>
-              <div class="glass-card counter-card glow-purple-hover" data-end="8000" data-suffix="" data-prefix="">
-                <div class="counter-value gradient-purple-text">0</div>
-                <p class="counter-label">Judicial Backlog</p>
-                <p class="counter-description">Pending SGBV cases in Kenyan court system as of 2026.</p>
-                <p class="counter-source">Judicial Service Commission</p>
               </div>
             </div>
           </div>
